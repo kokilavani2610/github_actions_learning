@@ -15,6 +15,9 @@ on:
         options:
           - staging
           - production
+          - Dev
+          - SIT
+          - UAT
       version:
         description: 'Version to deploy (e.g. 1.4.0)'
         required: false
