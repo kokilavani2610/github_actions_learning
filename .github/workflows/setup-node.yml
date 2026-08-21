@@ -11,6 +11,9 @@ jobs:
   node-versions:
     runs-on: ubuntu-latest
     steps:
+      - name: prebuild step
+        run: |
+          docker --version
       - name: Check out code
         uses: actions/checkout@v5
 
